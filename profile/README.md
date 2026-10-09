@@ -14,6 +14,10 @@ Samples:
 - [ChromaDB.SemanticKernel.Sample](https://github.com/ChromaDotNet/ChromaDB.SemanticKernel.Sample): Semantic Kernel samples with Chroma as the vector store.
 - [ChromaDB.AgentFramework.Sample](https://github.com/ChromaDotNet/ChromaDB.AgentFramework.Sample): Microsoft Agent Framework samples with Chroma as the vector store.
 
-The VectorData provider, the Testcontainers module and the Aspire integrations are also proposed upstream, in [CommunityToolkit/AI#58](https://github.com/CommunityToolkit/AI/pull/58), [testcontainers/testcontainers-dotnet#1784](https://github.com/testcontainers/testcontainers-dotnet/pull/1784) and [CommunityToolkit/Aspire#2219](https://github.com/CommunityToolkit/Aspire/pull/2219).
+Upstream:
+
+- **Accepted:** the VectorData provider, in the AI Community Toolkit ([CommunityToolkit/AI#58](https://github.com/CommunityToolkit/AI/pull/58)).
+- **Approved, waiting to be merged:** the Aspire integrations, in the Aspire Community Toolkit ([CommunityToolkit/Aspire#2219](https://github.com/CommunityToolkit/Aspire/pull/2219)).
+- **Proposed:** the Testcontainers module, in Testcontainers for .NET ([testcontainers/testcontainers-dotnet#1784](https://github.com/testcontainers/testcontainers-dotnet/pull/1784)).
 
 This is a community project. It is not affiliated with or endorsed by Chroma.
