@@ -17,7 +17,7 @@ Samples:
 Upstream:
 
 - **Accepted:** the VectorData provider, in the AI Community Toolkit ([CommunityToolkit/AI#58](https://github.com/CommunityToolkit/AI/pull/58)).
-- **Approved, waiting to be merged:** the Aspire integrations, in the Aspire Community Toolkit ([CommunityToolkit/Aspire#2219](https://github.com/CommunityToolkit/Aspire/pull/2219)).
+- **Accepted:** the Aspire integrations, in the Aspire Community Toolkit ([CommunityToolkit/Aspire#2219](https://github.com/CommunityToolkit/Aspire/pull/2219)).
 - **Proposed:** the Testcontainers module, in Testcontainers for .NET ([testcontainers/testcontainers-dotnet#1784](https://github.com/testcontainers/testcontainers-dotnet/pull/1784)).
 
 This is a community project. It is not affiliated with or endorsed by Chroma.
