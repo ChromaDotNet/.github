@@ -14,10 +14,24 @@ Samples:
 - [ChromaDB.SemanticKernel.Sample](https://github.com/ChromaDotNet/ChromaDB.SemanticKernel.Sample): Semantic Kernel samples with Chroma as the vector store.
 - [ChromaDB.AgentFramework.Sample](https://github.com/ChromaDotNet/ChromaDB.AgentFramework.Sample): Microsoft Agent Framework samples with Chroma as the vector store.
 
-Upstream:
+Used by:
 
-- **Accepted:** the VectorData provider, in the AI Community Toolkit ([CommunityToolkit/AI#58](https://github.com/CommunityToolkit/AI/pull/58)).
-- **Accepted:** the Aspire integrations, in the Aspire Community Toolkit ([CommunityToolkit/Aspire#2219](https://github.com/CommunityToolkit/Aspire/pull/2219)).
-- **Proposed:** the Testcontainers module, in Testcontainers for .NET ([testcontainers/testcontainers-dotnet#1784](https://github.com/testcontainers/testcontainers-dotnet/pull/1784)).
+- [CommunityToolkit.VectorData.Chroma](https://www.nuget.org/packages/CommunityToolkit.VectorData.Chroma): the Chroma provider for Microsoft.Extensions.VectorData, in the [AI Community Toolkit](https://github.com/CommunityToolkit/AI/blob/546aa1b8e306e7518b0225341ea62cd86c916297/MEVD/src/Chroma/Chroma.csproj#L18) of the .NET Foundation.
+  - Used by:
+    - [Generative AI for Beginners .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet/blob/359ffe5adf0cb74a397fd99af8786e14d0930ca3/samples/CoreSamples/RAGSimple-05MEAIVectorsChroma/RAGSimple-05MEAIVectorsChroma.csproj#L12): a RAG sample in the Microsoft course.
+    - [LangChain .NET](https://github.com/tryAGI/LangChain.Databases/blob/17c118f863ef1437b4ecaa0222081eb045b38a87/src/IntegrationTests/LangChain.Databases.IntegrationTests.csproj#L19): the integration tests of LangChain.Databases.
+  - Cited in:
+    - [Semantic Kernel](https://github.com/microsoft/semantic-kernel/blob/7e68276a4a85022dd4da255beae3263ab5cbf059/dotnet/src/VectorData/Chroma/README.md#L1): recommended for Chroma in .NET.
+    - [Microsoft Agent Framework](https://github.com/microsoft/agent-framework/blob/deecbcb062198f926516f89b65e5b1676e4514c2/dotnet/samples/community-projects.md#L26): listed among the .NET community projects.
+- CommunityToolkit.Aspire.Chroma: the Chroma client integration, in the [Aspire Community Toolkit](https://github.com/CommunityToolkit/Aspire/blob/523b84b27c5d019d242d95c2252046ba3619303c/src/CommunityToolkit.Aspire.Chroma/CommunityToolkit.Aspire.Chroma.csproj#L12) of the .NET Foundation.
+
+On the way:
+
+- [BotSharp](https://github.com/SciSharp/BotSharp/pull/1457): a Chroma vector database plugin, built on ChromaDotNet.Client.
+- [Testcontainers for .NET](https://github.com/testcontainers/testcontainers-dotnet/pull/1784): a Chroma module, tested with ChromaDotNet.Client.
+- [LangChain .NET samples](https://github.com/tryAGI/LangChain/pull/630): a sample with Chroma as the vector store, through CommunityToolkit.VectorData.Chroma.
+- [Semantic Kernel samples](https://github.com/microsoft/semantic-kernel/pull/14602): Chroma in the multi-store vector search sample and in the VectorStoreRAG demo, through CommunityToolkit.VectorData.Chroma.
+- [Semantic Kernel documentation](https://github.com/MicrosoftDocs/semantic-kernel-docs/pull/460): the C# page of the Chroma connector, through CommunityToolkit.VectorData.Chroma.
+- [Chroma documentation](https://github.com/chroma-core/chroma/pull/7877): Semantic Kernel and Agent Framework pages for .NET, through CommunityToolkit.VectorData.Chroma.
 
 This is a community project. It is not affiliated with or endorsed by Chroma.
