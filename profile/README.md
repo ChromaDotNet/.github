@@ -30,6 +30,7 @@ Used by:
 
 On the way:
 
+- [eShopLite](https://github.com/Azure-Samples/eShopLite/pull/72): the Azure sample's Chroma scenario moves to ChromaDotNet.Client, which fixes it on Chroma 1.x.
 - [Testcontainers for .NET](https://github.com/testcontainers/testcontainers-dotnet/pull/1784): a Chroma module, tested with ChromaDotNet.Client.
 - [Semantic Kernel samples](https://github.com/microsoft/semantic-kernel/pull/14602): Chroma in the multi-store vector search sample and in the VectorStoreRAG demo, through CommunityToolkit.VectorData.Chroma.
 - [Semantic Kernel documentation](https://github.com/MicrosoftDocs/semantic-kernel-docs/pull/460): the C# page of the Chroma connector, through CommunityToolkit.VectorData.Chroma.
