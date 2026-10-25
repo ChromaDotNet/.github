@@ -39,4 +39,4 @@ On the way:
 - [Semantic Kernel documentation](https://github.com/MicrosoftDocs/semantic-kernel-docs/pull/460): the C# page of the Chroma connector, through CommunityToolkit.VectorData.Chroma.
 - [Chroma documentation](https://github.com/chroma-core/chroma/pull/7877): Semantic Kernel and Agent Framework pages for .NET, through CommunityToolkit.VectorData.Chroma.
 
-This is a community project. It is not affiliated with or endorsed by Chroma.
+ChromaDotNet is an independent community project: .NET libraries and tools for Chroma. It is not affiliated with, endorsed by or sponsored by Chroma Inc. CHROMA is a registered trademark of Chroma Inc.
