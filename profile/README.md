@@ -31,10 +31,10 @@ Used by:
 - [BotSharp.Plugin.Chroma](https://github.com/SciSharp/BotSharp/blob/c8f632bf13bb22aed53c8ba63d41ee9e0e0fb75b/src/Plugins/BotSharp.Plugin.Chroma/BotSharp.Plugin.Chroma.csproj#L14): the Chroma vector database plugin of BotSharp, by SciSharp.
 - [LlmTornado.VectorDatabases.ChromaDB](https://github.com/lofcz/LLMTornado/blob/d619b5d4c6558094cc2fcb663a5d6b55e6871233/src/LlmTornado.VectorDatabases.ChromaDB/LlmTornado.VectorDatabases.ChromaDB.csproj#L17): the Chroma connector of LLM Tornado.
 - [eShopLite](https://github.com/Azure-Samples/eShopLite/blob/ae63e987b17e8db076914415ad289b28a18a76e0/scenarios/04-chromadb/src/Products/Products.csproj#L33): the Chroma scenario of the Azure sample, on Chroma 1.x.
+- [Testcontainers.Chroma](https://github.com/testcontainers/testcontainers-dotnet/blob/a6ce741af4dde9e8eb5f8c49bf2b90040b981187/tests/Testcontainers.Chroma.Tests/Testcontainers.Chroma.Tests.csproj#L14): the Chroma module of Testcontainers for .NET, tested with ChromaDotNet.Client.
 
 On the way:
 
-- [Testcontainers for .NET](https://github.com/testcontainers/testcontainers-dotnet/pull/1784): a Chroma module, tested with ChromaDotNet.Client.
 - [Semantic Kernel samples](https://github.com/microsoft/semantic-kernel/pull/14602): Chroma in the multi-store vector search sample and in the VectorStoreRAG demo, through CommunityToolkit.VectorData.Chroma.
 - [Semantic Kernel documentation](https://github.com/MicrosoftDocs/semantic-kernel-docs/pull/460): the C# page of the Chroma connector, through CommunityToolkit.VectorData.Chroma.
 - [Chroma documentation](https://github.com/chroma-core/chroma/pull/7877): Semantic Kernel and Agent Framework pages for .NET, through CommunityToolkit.VectorData.Chroma.
