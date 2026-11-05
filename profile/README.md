@@ -26,6 +26,7 @@ Used by:
     - [LangChain.Databases](https://github.com/tryAGI/LangChain.Databases/blob/17c118f863ef1437b4ecaa0222081eb045b38a87/src/IntegrationTests/LangChain.Databases.IntegrationTests.csproj#L19): the integration tests.
   - Cited in:
     - [Semantic Kernel](https://github.com/microsoft/semantic-kernel/blob/7e68276a4a85022dd4da255beae3263ab5cbf059/dotnet/src/VectorData/Chroma/README.md#L1): recommended for Chroma in .NET.
+    - [Semantic Kernel documentation](https://github.com/MicrosoftDocs/semantic-kernel-docs/blob/7c5c0568a974a6268680d0745ca345d93610baaf/semantic-kernel/concepts/vector-store-connectors/out-of-the-box-connectors/chroma-connector.md#L21): the C# page of the Chroma connector.
     - [LangChain.Databases](https://github.com/tryAGI/LangChain.Databases/blob/17c118f863ef1437b4ecaa0222081eb045b38a87/README.md#L36): recommended for Chroma in its README.
     - [Microsoft Agent Framework](https://github.com/microsoft/agent-framework/blob/deecbcb062198f926516f89b65e5b1676e4514c2/dotnet/samples/community-projects.md#L26): listed among the .NET community projects.
 - [CommunityToolkit.Aspire.Chroma](https://www.nuget.org/packages/CommunityToolkit.Aspire.Chroma): the Chroma client integration, in the [Aspire Community Toolkit](https://github.com/CommunityToolkit/Aspire/blob/523b84b27c5d019d242d95c2252046ba3619303c/src/CommunityToolkit.Aspire.Chroma/CommunityToolkit.Aspire.Chroma.csproj#L12) of the .NET Foundation.
@@ -37,7 +38,10 @@ Used by:
 On the way:
 
 - [Semantic Kernel samples](https://github.com/microsoft/semantic-kernel/pull/14602): Chroma in the multi-store vector search sample and in the VectorStoreRAG demo, through CommunityToolkit.VectorData.Chroma.
-- [Semantic Kernel documentation](https://github.com/MicrosoftDocs/semantic-kernel-docs/pull/460): the C# page of the Chroma connector, through CommunityToolkit.VectorData.Chroma.
+- [Semantic Kernel documentation](https://github.com/MicrosoftDocs/semantic-kernel-docs/pull/459): hybrid search, the Chroma Cloud connection and two limitations, on the C# page of the Chroma connector.
 - [Chroma documentation](https://github.com/chroma-core/chroma/pull/7877): Semantic Kernel and Agent Framework pages for .NET, through CommunityToolkit.VectorData.Chroma.
+- [Chroma documentation](https://github.com/chroma-core/chroma/pull/7851): ChromaDotNet.Client and CommunityToolkit.VectorData.Chroma in the list of the community clients.
+- [awesome-dotnet](https://github.com/quozd/awesome-dotnet/pull/1541): ChromaDotNet.Client among the database drivers.
+- [chromadb-dotnet-sample](https://github.com/KardelRuveyda/chromadb-dotnet-sample/pull/1): a Chroma sample for .NET, from the deprecated ChromaDB.Client to ChromaDotNet.Client, for Chroma 1.x.
 
 ChromaDotNet is an independent community project that provides .NET libraries and tools for Chroma. Independent project. Not affiliated with, endorsed by or sponsored by Chroma Inc. CHROMA is a registered trademark of Chroma Inc., used here only to describe compatibility. We use the name "Chroma" only to say which software our projects work with. It does not mean that Chroma Inc. made, approved or supports them.
